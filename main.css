@@ -1,0 +1,24 @@
+* {
+    box-sizing: background-color-box;
+}
+.nav{
+    display: flex;
+    background-color: lightgray;
+    justify-content: space-between;
+}
+
+.main{
+    background-color: gray;
+    height: 700px;
+}
+.bio-header{
+    text-align: center;
+}
+.img-container{
+    margin-top: 50px;
+    background-color: darkgray;
+    text-align: center;
+}
+.bio-container {
+    background-color:darkgray;
+}

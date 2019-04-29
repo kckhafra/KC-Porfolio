@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+body{
+    margin:0px;
+}
+
 .background {
     background: url("https://cdn.pixabay.com/photo/2015/10/11/12/48/chess-982260__340.jpg") no-repeat;
     background-size: 100% 100%;
@@ -94,8 +98,7 @@ p.background-text{
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     font-size: 12px;
-    
-    padding-right: 0;
+    padding-right: 10px;
   }
 
   .other-navlinks{

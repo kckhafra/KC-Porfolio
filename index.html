@@ -5,29 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
     <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="enhanced.css">
     <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
 </head>
 <body>
     <section class="background">
         <nav class="nav">
-        <a class="nav-text" href="#bio"><strong class="my-name">KC Khafra</strong></a>
-        <div class = "right-navlinks">
-            <a class="nav-text bio-color" href="#bio"><strong class="other-navlinks">Bio</strong></a>
-            <a class="nav-text portfolio-color" href="#portfolio"><strong class="other-navlinks">Portfolio</strong></a>
-            <a class="nav-text philosophy-color" href="#philosophy"><strong class="other-navlinks">Philosophy</strong></a>
-            <a class="nav-text github-color" target="_blank" href="https://github.com/kckhafra"><strong class="other-navlinks">Github</strong></a>
-            <a class="nav-text linkedin-color" target="_blank" href="https://www.linkedin.com/in/kuntcheramen-khafra-5840b2108/"><strong class="other-navlinks">LinkedIn</strong></a>
-            
-            
-            
-        </div>
+            <a class="nav-text" href="#bio"><strong class="my-name">KC Khafra</strong></a>
+            <div class = "right-navlinks ">
+                <a class="nav-text hiddennav" href="#bio"><strong class="other-navlinks">Bio</strong></a>
+                <a class="nav-text hiddennav" href="#portfolio"><strong class="other-navlinks">Portfolio</strong></a>
+                <a class="nav-text hiddennav" href="#philosophy"><strong class="other-navlinks">Philosophy</strong></a>
+                <a class="nav-text hiddennav" target="_blank" href="https://github.com/kckhafra"><strong class="other-navlinks">Github</strong></a>
+                <a class="nav-text hiddennav" target="_blank" href="https://www.linkedin.com/in/kuntcheramen-khafra-5840b2108/"><strong class="other-navlinks">LinkedIn</strong></a>
+                <button class="nav-icon">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </button>
+            </div>
+             
+            <section class="dropdown-content">
+                    <a class="nav-text" href="#portfolio"><strong class="other-navlinks">Portfolio</strong></a>
+                    <a class="nav-text" href="#philosophy"><strong class="other-navlinks">Philosophy</strong></a>
+                    <a class="nav-text"  href="https://github.com/kckhafra"><strong class="other-navlinks">Github</strong></a>
+                    <a class="nav-text"  href="https://www.linkedin.com/in/kuntcheramen-khafra-5840b2108/"><strong class="other-navlinks">LinkedIn</strong></a>
+            </section>
+            <div class="text-container">
+                    <h1 class = "background-text">CODING IS A GAME</h1>
+                    <P class="background-text">AND I PLAY IT WELL</P>
+            </div> 
         </nav>
-               
-        <div class="text-container">
-            <h1 class = "background-text">CODING IS A GAME</h1>
-            <P class="background-text">AND I PLAY IT WELL</P>
-        </div>  
     </section>
+        
+    
 
 
     <section class = "bio-section" id="bio">
@@ -69,10 +80,6 @@
         </section>
 
     
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="index.js"></script>
-    <script
-  src="https://code.jquery.com/jquery-3.4.0.slim.js"
-  integrity="sha256-milezx5lakrZu0OP9b2QWFy1ft/UEUK6NH1Jqz8hUhQ="
-  crossorigin="anonymous"></script>
 </body>

@@ -1,0 +1,114 @@
+
+@media only screen and (min-width:976px ){
+.nav{
+    font-weight: 400px;
+    background-color:rgb(114, 206, 223);
+    color: black;
+    height: 30px;
+    }
+}
+
+@media only screen and (min-width:700px ){
+    .my-name{
+        font-size: 24px;
+        margin-left: 30px;
+        color: rgb(61, 58, 61);
+        }
+    }
+
+
+
+
+@media only screen and (min-width:700px){
+    .nav-icon {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:700px){
+    .hiddennav {
+        display: initial;
+    }
+}
+
+
+@media only screen and (min-width:700px ){
+    .other-navlinks{
+        padding: 8px;
+        font-size: 14;
+    }
+}
+
+@media only screen and (min-width:976px ){
+    .other-navlinks{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width:700px ){
+    .right-navlinks{
+        float: right;
+        margin-right: 20px;
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (min-width:976px ){
+    h1.background-text{
+        font-size: 35px;
+        
+    }
+}
+
+@media only screen and (min-width:976px ){
+p.background-text{
+    font-size: 20px;
+    
+    }
+}
+
+@media only screen and (min-width:750px ){
+    div.bio-container {
+        margin-top: 50px;
+        width: 600px;
+        line-height: 24px;
+        font-size: 18px;
+        margin-left: auto;
+        margin-right: auto;
+        }
+    }
+
+
+
+@media only screen and (min-width:750px ){
+.portfolio-img{
+    width:450;
+    }
+}
+
+@media only screen and (min-width:750px ){
+.quizzapp-container{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 24px;
+    font-size: 18px;
+    }
+}
+
+@media only screen and (min-width:750px ){
+.github-container{
+    text-align: center;
+    font-size: 18px;
+    }
+}
+
+@media only screen and (min-width:750px ){
+.philo-container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    line-height: 24px;
+    font-size: 18px;
+    }
+}

@@ -12,7 +12,7 @@
     background-color:rgb(114, 206, 223);
     color: black;
     height: 30px;
-    font-size: 18px;
+    
     margin:0;
 }
 
@@ -63,7 +63,7 @@ a{
 
 .text-container {
     text-align: center;
-    margin-top: 130px;
+    margin-top: 100px;
     
 }
 
@@ -103,7 +103,7 @@ p.background-text{
 }
 
 .show {
-      display:block;
+      display:initial;
     }
 
 .main{

@@ -1,12 +1,5 @@
 
-@media only screen and (min-width:976px ){
-.nav{
-    font-weight: 400px;
-    background-color:rgb(114, 206, 223);
-    color: black;
-    height: 30px;
-    }
-}
+
 
 @media only screen and (min-width:700px ){
     .my-name{
@@ -19,13 +12,15 @@
 
 
 
-@media only screen and (min-width:700px){
+@media only screen and (min-width:800px){
     .nav-icon {
         display: none;
     }
 }
 
-@media only screen and (min-width:700px){
+
+
+@media only screen and (min-width:800px){
     .hiddennav {
         display: initial;
     }

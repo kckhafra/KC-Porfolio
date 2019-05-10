@@ -101,7 +101,7 @@ p.background-text{
     padding-right: 10px;
   }
 
-  .other-navlinks{
+.other-navlinks{
     padding: 8px;
 }
 
@@ -122,10 +122,6 @@ h2{
     font-family: 'Lato', sans-serif;
 
 }
-
-
-   
-
 
 .bioimg-container{
     text-align: center;
@@ -157,9 +153,6 @@ div.bio-container {
 
 .portfolioimg-container{
     text-align: center;
-    
-    
-    
 }
 
 .portfolio-img{
@@ -167,7 +160,7 @@ div.bio-container {
 }
 
 
-.quizzapp-container{
+.portfolio-container{
     width: 340px;
     margin-left: auto;
     margin-right: auto;
@@ -180,14 +173,19 @@ div.bio-container {
 .github-container{
     text-align: center;
     font-size: 14px;
+    
 }
 
 .github-link{
-    background-color:rgb(53, 141, 156);
+    background-color:rgb(37, 179, 204);
     margin: 15px;
     padding: 5px;
-    border: 1px solid black;
-    color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.space-portfolio{
+    margin-top: 75px;
 }
 
 section#philosophy{
